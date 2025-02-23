@@ -1,0 +1,102 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+nav {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    background: linear-gradient(90deg, #ff6b6b, #ff9a9e);
+    padding: 15px 0;
+    transition: background 0.3s, box-shadow 0.3s;
+    z-index: 1000;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+nav ul {
+    list-style: none;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 10px 15px;
+    font-weight: 600;
+    transition: color 0.3s, background 0.3s, transform 0.2s;
+    border-radius: 8px;
+}
+
+/* Hover effect */
+nav ul li a:hover {
+    background: white;
+    color: #ff6b6b;
+    transform: scale(1.1);
+}
+
+/* Scroll effect */
+.scrolled {
+    background: linear-gradient(90deg, #6b6bff, #9a9eff);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Sections */
+section {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 26px;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+}
+
+/* Different section backgrounds */
+#home { 
+    background: url('https://static.vecteezy.com/system/resources/previews/027/231/654/non_2x/illustration-graphic-of-aesthetic-background-template-with-simple-and-minimalist-pastel-colors-vector.jpg') no-repeat center center/cover; 
+}
+
+#about { 
+    background: url('https://static.vecteezy.com/system/resources/previews/027/231/654/non_2x/illustration-graphic-of-aesthetic-background-template-with-simple-and-minimalist-pastel-colors-vector.jpg') no-repeat center center/cover; 
+}
+
+#services { 
+    background: url('https://static.vecteezy.com/system/resources/previews/027/231/654/non_2x/illustration-graphic-of-aesthetic-background-template-with-simple-and-minimalist-pastel-colors-vector.jpg') no-repeat center center/cover; 
+}
+
+#contact { 
+    background: url('https://static.vecteezy.com/system/resources/previews/027/231/654/non_2x/illustration-graphic-of-aesthetic-background-template-with-simple-and-minimalist-pastel-colors-vector.jpg') no-repeat center center/cover; 
+}
+
+
+/* Section Titles */
+h1, h2 {
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+
+/* Paragraph Styling */
+p {
+    font-size: 20px;
+    font-weight: 300;
+    width: 60%;
+    line-height: 1.5;
+}
+
