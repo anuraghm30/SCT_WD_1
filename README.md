@@ -18,4 +18,4 @@ This is a modern and fully **responsive landing page** built using **HTML, CSS, 
 ## Installation & Usage
 1. Clone the repository:  
    ```sh
-   git clone https://github.com/anuraghm30/Responsive-Landing-Page.git
+   git clone https://github.com/anuraghm30/SCT_WD_1.git
